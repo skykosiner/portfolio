@@ -1,0 +1,37 @@
+.footer {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  display: block;
+  position: sticky;
+  width: 100%;
+  bottom: 0;
+  &_.footer-text {
+    text-align: right;
+    margin: 0;
+    padding: 0;
+  }
+  &_.links-footer {
+    padding: 0;
+    margin: 5px;
+    text-align: right;
+  }
+  &_.links {
+    text-decoration: none;
+    color: #333333;
+  }
+}
+.mobile {
+  display: none;
+}
+// Footer when hambuger menu is pressed
+// footer scaling
+@media screen and (max-width: 1730px) {
+  .brake {
+    display: none;
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+  }
+}

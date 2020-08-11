@@ -1,0 +1,72 @@
+/* Hambuger style */
+.hamburger {
+  float: right;
+  width: 100px;
+  margin: 0px;
+  padding: 0px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 1em;
+
+  > span {
+    display: block;
+    margin: 9px auto;
+    background-color: #ffffff;
+    width: 50%;
+    height: 5px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+  }
+
+  /* Hambuger hover animation */
+  &:hover {
+    span:first-child {
+      transform: translateY(-5px);
+    }
+
+    span:last-child {
+      transform: translateY(5px);
+    }
+  }
+}
+
+/* Hambuger click animation to cross */
+.hamburger.is-opened {
+  span:first-child {
+    transform: translateY(13px) rotate(50deg);
+  }
+  span:nth-child(2) {
+    transform: scaleX(0);
+  }
+
+  span:last-child {
+    transform: translateY(-15px) rotate(-50deg);
+  }
+}
+// inside menu
+.inside {
+  margin: auto;
+  padding: 10px;
+  font-size: 50px;
+  display: none;
+  background-image: linear-gradient(to right, red, orange);
+  width: 100%;
+  height: 100%;
+  > a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Pridi", serif;
+  }
+}
+.p {
+  display: block;
+  opacity: 0%;
+}
+@media screen and (max-width: 769px) {
+  .inside {
+    background-image: linear-gradient(to right, red, orange);
+    width: 95%;
+    height: 100%;
+  }
+}
