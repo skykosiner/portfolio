@@ -23,23 +23,11 @@ $(document).ready(function () {
   });
 })
 
-$(window).scroll(function () {
-  if(!$('.image').is(':hidden'){
-    $("body,html").animate({ scrollop: 100 });
-  }
-});
 
 $(window).scroll(function () {
   $(".image").css("opacity", 1 - $(window).scrollTop() / 250);
 });
 
-// For about text coming in when scrolling down
-$(window).scroll(function () {
-   if $(element).is(":hidden");{
-    $(".image").css("display", "none");
-    $(".about").css("display", "block")
-  }
-});
 
 //For Image coming in when scroll up
 $(window).scroll(function () {
