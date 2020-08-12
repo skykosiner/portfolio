@@ -3,6 +3,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pridi:wght@600&display=swap");
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+  /* make scrollbar transparent */
+}
+
 /* Hambuger style */
 .hamburger {
   float: right;
@@ -87,12 +93,6 @@
     width: 95%;
     height: 100%;
   }
-}
-
-::-webkit-scrollbar {
-  width: 0px;
-  background: transparent;
-  /* make scrollbar transparent */
 }
 
 .footer {
