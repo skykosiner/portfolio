@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pridi:wght@600&display=swap");
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+  /* make scrollbar transparent */
+}
+
+/* Hambuger style */
+.hamburger {
+  float: right;
+  width: 100px;
+  margin: 0px;
+  padding: 0px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  right: 0;
+  z-index: 9;
+  /* Hambuger hover animation */
+}
+
+.hamburger > span {
+  display: block;
+  margin: 9px auto;
+  background-color: #ffffff;
+  width: 50%;
+  height: 5px;
+  border-radius: 10px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.hamburger:hover span:first-child {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+
+.hamburger:hover span:last-child {
+  -webkit-transform: translateY(5px);
+          transform: translateY(5px);
+}
+
+/* Hambuger click animation to cross */
+.hamburger.is-opened span:first-child {
+  -webkit-transform: translateY(13px) rotate(50deg);
+          transform: translateY(13px) rotate(50deg);
+}
+
+.hamburger.is-opened span:nth-child(2) {
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+}
+
+.hamburger.is-opened span:last-child {
+  -webkit-transform: translateY(-15px) rotate(-50deg);
+          transform: translateY(-15px) rotate(-50deg);
+}
+
+.inside {
+  position: absolute;
+  top: 0;
+  overflow-x: hidden;
+  width: 100%;
+  height: 45%;
+  font-size: 60px;
+  background-image: -webkit-gradient(linear, left top, right top, from(red), to(orange));
+  background-image: linear-gradient(to right, red, orange);
+  display: none;
+  white-space: pre-line;
+}
+
+.inside > a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "Pridi", serif;
+  margin: 5px;
+}
+
+.p {
+  display: block;
+  opacity: 0%;
+}
+
+@media screen and (max-width: 769px) {
+  .inside {
+    background-image: -webkit-gradient(linear, left top, right top, from(red), to(orange));
+    background-image: linear-gradient(to right, red, orange);
+    width: 95%;
+    height: 100%;
+  }
+}
+
+.footer {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  display: block;
+  position: -webkit-sticky;
+  position: sticky;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer_.footer-text {
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+
+.footer_.links-footer {
+  padding: 0;
+  margin: 5px;
+  text-align: right;
+}
+
+.footer_.links {
+  text-decoration: none;
+  color: #333333;
+}
+
+.mobile {
+  display: none;
+}
+
+@media screen and (max-width: 1730px) {
+  .brake {
+    display: none;
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+.button {
+  display: none;
+  float: left;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  font-size: 30px;
+  margin: 0px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  background: url(/images/code.png) no-repeat top;
+  background-size: cover;
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  z-index: -2;
+  top: 0;
+  -webkit-filter: blur(9px);
+          filter: blur(9px);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.title {
+  margin: 5px;
+  padding: 40px;
+  font-size: 40px;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+
+.project-explain {
+  margin: 0;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+
+.project-explain.explain-text {
+  font-size: 20px;
+  text-align: center;
+  margin: 0;
+}
+/*# sourceMappingURL=project.css.map */
