@@ -49,17 +49,19 @@
 .inside {
   position: absolute;
   top: 0;
+  overflow-x: hidden;
   width:100%;
+  height: 45%;
   font-size: 60px;
   background-image: linear-gradient(to right, red, orange);
   display: none;
+  white-space: pre-line; 
   > a {
     text-decoration: none;
     color: #ffffff;
     font-weight: bold;
     font-family: "Pridi", serif;
     margin: 5px;
-    text-align: left;
   }
 }
 .p {
@@ -72,4 +74,8 @@
     width: 95%;
     height: 100%;
   }
+}
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
 }
