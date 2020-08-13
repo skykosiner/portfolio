@@ -6,6 +6,7 @@ $(document).ready(function () {
     $("body, html").animate({ scrollTop: 0 });
     $(".background").toggleClass("blur");
     $("footer").toggleClass("footer");
+    $(".inside").animate({ scrollTop: 69});
   });
 });
 

@@ -72,10 +72,8 @@
   display: block;
   opacity: 0%;
 }
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 961px) {
   .inside {
-    background-image: linear-gradient(to right, red, orange);
-    width: 95%;
-    height: 100%;
+    display: none;
   }
 }

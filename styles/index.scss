@@ -1,9 +1,9 @@
-@import "_fonts.scss";
+@import"_fonts.scss";
 @import "_Color.scss";
 @import "_header.scss";
 @import "_footer.scss";
 * {
-  margin: 0;
+  margin: 0; 
   padding: 0;
 }
 .background {
@@ -40,4 +40,3 @@
     margin: 5px;
   }
 }
-

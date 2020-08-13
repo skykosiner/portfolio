@@ -86,12 +86,9 @@
   opacity: 0%;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 961px) {
   .inside {
-    background-image: -webkit-gradient(linear, left top, right top, from(red), to(orange));
-    background-image: linear-gradient(to right, red, orange);
-    width: 95%;
-    height: 100%;
+    display: none;
   }
 }
 
@@ -104,6 +101,7 @@
   position: sticky;
   width: 100%;
   bottom: 0;
+  left: 0;
 }
 
 .footer_.footer-text {
@@ -137,22 +135,6 @@
   }
 }
 
-.button {
-  display: none;
-  float: left;
-  background-color: Transparent;
-  background-repeat: no-repeat;
-  border: none;
-  cursor: pointer;
-  overflow: hidden;
-  outline: none;
-  font-size: 30px;
-  margin: 0px;
-  position: fixed;
-  right: 0;
-  bottom: 0;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -165,7 +147,6 @@
   position: fixed;
   width: 100%;
   z-index: -2;
-  top: 0;
   -webkit-filter: blur(9px);
           filter: blur(9px);
   -webkit-transform: scale(1.1);
