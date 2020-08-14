@@ -122,7 +122,8 @@
 }
 
 .links:hover {
-  color: blue;
+  color: #000000;
+  font-size: 14px;
 }
 
 .mobile {
@@ -187,31 +188,6 @@
   font-family: "Roboto", sans-serif;
 }
 
-.image {
-  width: 100%;
-  margin: 50px;
-  text-align: center;
-  padding: 0;
-}
-
-.image_.blured-macbook {
-  margin: 0px;
-  width: 540px;
-  height: 600px;
-}
-
-.image_.js-shot {
-  width: 540px;
-  height: 600px;
-  margin: 0px;
-}
-
-.image_.wide-shot {
-  width: 540px;
-  height: 600px;
-  margin: 0px;
-}
-
 .about {
   display: block;
   margin: 5px;
@@ -261,10 +237,27 @@
   color: #000000;
 }
 
-@media screen and (max-width: 11000012px) {
-  .image {
-    display: none;
-  }
+.more {
+  display: none;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+}
+
+.more_.sub-codding {
+  text-align: left;
+  margin: 20px;
+}
+
+.more_.sub-codding_.codding_text {
+  margin: 20px;
+}
+
+.more_.sub-codding_.codding_text > .freecode {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 769px) {
   .kosiner-codes:hover {
     color: #ffffff;
   }

@@ -29,27 +29,6 @@
   font-size: 60px;
   font-family: "Roboto", sans-serif;
 }
-.image {
-  width: 100%;
-  margin: 50px;
-  text-align: center;
-  padding: 0;
-  &_.blured-macbook {
-    margin: 0px;
-    width: 540px;
-    height: 600px;
-  }
-  &_.js-shot {
-    width: 540px;
-    height: 600px;
-    margin: 0px;
-  }
-  &_.wide-shot {
-    width: 540px;
-    height: 600px;
-    margin: 0px;
-  }
-}
 .about {
   display: block;
   margin: 5px;
@@ -94,12 +73,26 @@
 .read-more:hover{
   color: #000000;
 } 
-// Scalings
-// Scaling to get rid of images when on any device smaller then 10.5inch iPad pro
-  @media screen and (max-width: 11000012px){
-    .image{
-      display: none;
+// For read more text
+.more{
+  display: none;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  &_.sub-codding{
+    text-align: left;
+    margin: 20px;
+    &_.codding_text{
+      margin: 20px;
+      >.freecode{
+        text-decoration: none;
+        color: #ffffff;
+      }
     }
+  }
+}
+// Scalings
+// Get rid of hover effect on mobile
+  @media screen and (max-width: 769px){
     .kosiner-codes:hover{
       color: #ffffff;
     }
@@ -118,4 +111,3 @@
     display: block;
   }
 }
-// f
