@@ -19,5 +19,14 @@ $(document).ready(function () {
 $(document).ready(function () {
   $('.read-more').click(function () {
     $(".more").fadeToggle();
+    $('.footer').fadeToggle();
   });
+});
+
+
+$(window).scroll(function() {
+  if($(window).scrollTop() + $(window).height() == $(document).height()) {
+    $('.footer').fadeIn();
+    $('.more').fadeOut();
+  }
 });
