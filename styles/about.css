@@ -218,13 +218,14 @@
 
 .about_.about_title {
   text-align: center;
+  vertical-align: center;
+  line-height: 90px;
   font-size: 40px;
-  margin: -45px;
 }
 
 .about_.about_text {
   font-size: 30px;
-  margin: 5px;
+  margin: 100px;
 }
 
 @media screen and (max-width: 1112px) {

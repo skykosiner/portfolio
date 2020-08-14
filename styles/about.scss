@@ -59,12 +59,13 @@
   color: white;
   &_.about_title {
     text-align: center;
+    vertical-align: center;
+    line-height: 90px;
     font-size: 40px;
-    margin: -45px;
   }
   &_.about_text {
     font-size: 30px;
-    margin: 5px;
+    margin: 100px;
   }
 }
 // Scaling
