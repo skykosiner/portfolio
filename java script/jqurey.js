@@ -10,16 +10,3 @@ $(document).ready(function () {
   });
 });
 
-$(document).ready(function () {
-  if ($(window).width() < 960) {
-    $(".footer").fadeIn().one;
-    $("body, html").animate({ scrollTop: 0 });
-  } else {
-    $(".footer").fadeOut().one;
-  }
-});
-
-$(window).scroll(function () {
-  $(".footer").fadeIn().one();
-});
-if 
