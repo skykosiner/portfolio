@@ -230,8 +230,9 @@
 }
 
 .about_.about_text {
-  font-size: 30px;
+  font-size: 20px;
   line-height: 40px;
+  color: #ffffff;
 }
 
 .about_.kosiner-codes {
