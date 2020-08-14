@@ -245,6 +245,22 @@
   color: blue;
 }
 
+.read-more {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 15px;
+}
+
+.read-more:hover {
+  color: #000000;
+}
+
 @media screen and (max-width: 11000012px) {
   .image {
     display: none;

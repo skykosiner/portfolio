@@ -29,7 +29,6 @@
   font-size: 60px;
   font-family: "Roboto", sans-serif;
 }
-
 .image {
   width: 100%;
   margin: 50px;
@@ -79,10 +78,23 @@
 .kosiner-codes:hover{
   color: blue;
 }
-
-
+// Read more button
+.read-more{
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 15px;
+}
+// Hover effect for read more button
+.read-more:hover{
+  color: #000000;
+} 
 // Scalings
-
 // Scaling to get rid of images when on any device smaller then 10.5inch iPad pro
   @media screen and (max-width: 11000012px){
     .image{
