@@ -100,7 +100,7 @@
   position: fixed;
   width: 100%;
   height: auto !important;
-  margin: 0px;
+  margin: 0 auto;
   position: fixed;
   right: 0;
   bottom: 0;
@@ -209,7 +209,7 @@
 
 .about_.about_text {
   font-size: 20px;
-  line-height: 40px;
+  line-height: 30px;
   color: #ffffff;
 }
 
@@ -233,10 +233,6 @@
   margin: 0 auto;
   text-align: center;
   font-size: 15px;
-}
-
-.read-more:hover {
-  color: #000000;
 }
 
 .more {

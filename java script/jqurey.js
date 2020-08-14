@@ -8,3 +8,5 @@ $(document).ready(function () {
     $(".inside").animate({ scrollTop: 69});
   });
 });
+
+
