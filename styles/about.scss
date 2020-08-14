@@ -84,7 +84,7 @@
 // Scalings
 
 // Scaling to get rid of images when on any device smaller then 10.5inch iPad pro
-  @media screen and (max-width: 1112px){
+  @media screen and (max-width: 11000012px){
     .image{
       display: none;
     }
@@ -93,3 +93,16 @@
     }
   }
 
+
+@media screen and (min-width: 834px){
+  .about_text{
+    margin: 0;
+    text-align: center;
+  }
+  .mobile-br{
+    display: none;
+  }
+  .desktop-br{
+    display: block;
+  }
+}
