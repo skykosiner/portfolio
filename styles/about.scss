@@ -57,6 +57,7 @@
   width: 100%;
   height: 100%;
   color: white;
+  font-family: "Roboto", sans-serif;
   &_.about_title {
     text-align: center;
     margin: 20px;
@@ -68,8 +69,18 @@
     font-size: 30px;
     line-height: 40px;
   }
+  &_.kosiner-codes{
+    text-decoration: transparent;
+    color: #ffffff;
+  }
 }
-// Scaling
+// Set @Kosiner.codes to blue when mouse is over it
+.kosiner-codes:hover{
+  color: blue;
+}
+
+
+// Scalings
 
 // Scaling to get rid of images when on any device smaller then 10.5inch iPad pro
   @media screen and (max-width: 1112px){

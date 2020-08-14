@@ -121,6 +121,10 @@
   color: #333333;
 }
 
+.links:hover {
+  color: blue;
+}
+
 .mobile {
   display: none;
 }

@@ -22,3 +22,4 @@ $(document).ready(function () {
 $(window).scroll(function () {
   $(".footer").fadeIn().one();
 });
+if 

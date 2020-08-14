@@ -121,6 +121,10 @@
   color: #333333;
 }
 
+.links:hover {
+  color: blue;
+}
+
 .mobile {
   display: none;
 }
@@ -214,6 +218,7 @@
   width: 100%;
   height: 100%;
   color: white;
+  font-family: "Roboto", sans-serif;
 }
 
 .about_.about_title {
@@ -227,6 +232,16 @@
 .about_.about_text {
   font-size: 30px;
   line-height: 40px;
+}
+
+.about_.kosiner-codes {
+  -webkit-text-decoration: transparent;
+          text-decoration: transparent;
+  color: #ffffff;
+}
+
+.kosiner-codes:hover {
+  color: blue;
 }
 
 @media screen and (max-width: 1112px) {
