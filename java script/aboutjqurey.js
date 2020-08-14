@@ -8,14 +8,12 @@ $(document).ready(function () {
     $(".background").toggleClass("blur");
   });
 });
-
 // Scaling if screen is   less then 900px
 $(document).ready(function () {
   if ($(window).width() > 900) {
     $(".about_title").css({"padding": "90px"});
   };
 });
-
 // When read more button is pressed show readmore text and hide footer
 $(document).ready(function () {
   $('.read-more').click(function () {
@@ -25,9 +23,7 @@ $(document).ready(function () {
     $('.read-more').css({'color': '#444444'});
   });
 });
-
-
-
+// Change read more button back to white if user preses it
 $(document).ready(function () {
   $('.read-more').click(function () {
     if ($('.read-more').css('color') === '#444444'){
@@ -35,16 +31,6 @@ $(document).ready(function () {
     }
   });
 });
-
-
-
-
-
-
-
-
-
-
 // If at the bottom of the page and read more text is out then hide it and reveal the footer
 $(window).scroll(function() {
   if($(window).scrollTop() + $(window).height() == $(document).height()) {
