@@ -16,6 +16,9 @@
       $(function(){
         $("#footer").load("/pages/footer.html"); 
       });
+      $(function(){
+        $("#menu").load("/pages/hambugermenu.html"); 
+      });
     </script>
     <!--title-->
     <title>Yoni Kosiner portfolio</title>
@@ -24,27 +27,17 @@
     <body>
       <div class="background"></div>
       <!--Hambuger menu-->
-      <div class="hamburger" id="hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <div class="inside">
-        <a href="/index.html">Home</a>
-        <a href="/pages/about.html">About </a>
-        <a href='/pages/project.html'>My projects</a>
-        <a href="#"></a>
-      </div>
+      <div id="menu"></div>
       <div class="all">
         <p class="p">f</p>
         <!--start of page-->
         <h1 class="title">
-          Yoni kosiner:<br />
-          Developer<br />
+         <a class="global-link global-underline" href="http://instagram.com/kosiner.codes">Yoni Kosiner:</a><br />
+         <a class="global-link global-underline" href="http://github.com/yonikosiner">Developer</a><br />
           Smart Home Enthusiast
         </h1>
-      </div>
       <div id="footer"></div>
+    </div>
     </body>
   </html>
 </html>

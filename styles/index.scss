@@ -2,6 +2,7 @@
 @import "_Color.scss";
 @import "_header.scss";
 @import "_footer.scss";
+@import "_global-styles.scss";
 * {
   margin: 0; 
   padding: 0;
@@ -14,6 +15,7 @@
   width: 100%;
   z-index: -2;
   top: 0;
+  transform: scale(1.1);
 }
 .blur {
   filter: blur(8px);
@@ -21,6 +23,7 @@
 }
 .all {
   display: block;
+  cursor: default;
 }
 /* main title*/
 .title {

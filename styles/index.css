@@ -167,6 +167,11 @@
   }
 }
 
+.global-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -180,6 +185,8 @@
   width: 100%;
   z-index: -2;
   top: 0;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .blur {
@@ -191,6 +198,7 @@
 
 .all {
   display: block;
+  cursor: default;
 }
 
 /* main title*/

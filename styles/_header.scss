@@ -1,3 +1,4 @@
+@import "_Color.scss";
 ::-webkit-scrollbar {
   width: 0px;
   background: transparent; /* make scrollbar transparent */
@@ -17,7 +18,7 @@
   > span {
     display: block;
     margin: 9px auto;
-    background-color: #ffffff;
+    background-color: $white;
     width: 50%;
     height: 5px;
     border-radius: 10px;
