@@ -8,7 +8,7 @@ $(document).ready(function () {
     $(".background").toggleClass("blur");
   });
 });
-// Scaling if screen is   less then 900px
+// Scaling if screen is less then 900px
 $(document).ready(function () {
   if ($(window).width() > 900) {
     $(".about_title").css({"padding": "90px"});
@@ -41,4 +41,14 @@ $(window).scroll(function() {
       $('.read-more').css({'color': '#ffffff'});
     }
   }
+});
+
+$(document).ready(function() {
+  $(window).resize(function() {
+      if($(window).width() >= 1336) {
+        $('.about_title').toggleClass('about_title_desktop');
+        $('.about_title').toggleClass('about_title');
+        $('.about_title').toggleClass('about_');
+      } 
+  })  
 });

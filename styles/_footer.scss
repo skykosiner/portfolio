@@ -1,3 +1,4 @@
+@import "_underline.scss";
 .footer {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
@@ -25,14 +26,6 @@
     color: #333333;
   }
 }
-// Make links go blue when hovering over
-.links:hover{
-  color: #000000;
-  font-size: 14px;
-}
-
-
-
 .mobile {
   display: none;
 }
