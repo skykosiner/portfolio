@@ -1,4 +1,5 @@
 @import"_fonts.scss";
+@import "_global-styles.scss";
 @import "_Color.scss";
 @import "_header.scss";
 @import "_footer.scss";
@@ -9,24 +10,16 @@
   padding: 0;
   max-width: 100%;
   overflow-x: hidden;
+  background-color: #555555;
 }
-.background {
-  background: url(/images/overhead.jpg) no-repeat top;
-  background-size: cover;
-  height: 100%;
-  position: fixed;
-  width: 100%;
-  z-index: -2;
-  top: 0;
-  filter: blur(9px);
-  transform: scale(1.1);
-}
+
 .title {
   width: 100%;
   position: sticky;
+  position: -webkit-sticky;
   text-align: center;
   font-weight: bold;
-  color: #555555;
+  color: #ffffff;
   font-size: 60px;
   font-family: "Roboto", sans-serif;
 }
@@ -45,7 +38,7 @@
     font-size: 40px;
   }
   &_.about_text {
-    font-size: 20px;
+    font-size: 30px;
     line-height: 30px;
     color: #ffffff;
   }
@@ -83,12 +76,13 @@
   &_.sub-codding{
     text-align: left;
     margin: 20px;
+    font-size: 50px;
     &_.codding_text{
       margin: 20px;
-      >.freecode{
-        text-decoration: none;
-        color: #ffffff;
-      }
+      font-size: 30px;
+      color: $white;
+      background-color: $light-grey;
+      border-radius: 1%;
     }
   }
 }

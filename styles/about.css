@@ -3,6 +3,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pridi:wght@600&display=swap");
+.global-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 ::-webkit-scrollbar {
   width: 0px;
   background: transparent;
@@ -16,6 +21,7 @@
   margin: 0px;
   padding: 0px;
   position: -webkit-sticky;
+  /* Safari */
   position: sticky;
   top: 0;
   right: 0;
@@ -218,29 +224,16 @@
   padding: 0;
   max-width: 100%;
   overflow-x: hidden;
-}
-
-.background {
-  background: url(/images/overhead.jpg) no-repeat top;
-  background-size: cover;
-  height: 100%;
-  position: fixed;
-  width: 100%;
-  z-index: -2;
-  top: 0;
-  -webkit-filter: blur(9px);
-          filter: blur(9px);
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  background-color: #555555;
 }
 
 .title {
   width: 100%;
-  position: -webkit-sticky;
   position: sticky;
+  position: -webkit-sticky;
   text-align: center;
   font-weight: bold;
-  color: #555555;
+  color: #ffffff;
   font-size: 60px;
   font-family: "Roboto", sans-serif;
 }
@@ -263,7 +256,7 @@
 }
 
 .about_.about_text {
-  font-size: 20px;
+  font-size: 30px;
   line-height: 30px;
   color: #ffffff;
 }
@@ -302,15 +295,15 @@
 .more_.sub-codding {
   text-align: left;
   margin: 20px;
+  font-size: 50px;
 }
 
 .more_.sub-codding_.codding_text {
   margin: 20px;
-}
-
-.more_.sub-codding_.codding_text > .freecode {
-  text-decoration: none;
+  font-size: 30px;
   color: #ffffff;
+  background-color: #555555;
+  border-radius: 1%;
 }
 
 @media screen and (max-width: 769px) {

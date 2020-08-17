@@ -16,6 +16,7 @@
   margin: 0px;
   padding: 0px;
   position: -webkit-sticky;
+  /* Safari */
   position: sticky;
   top: 0;
   right: 0;

@@ -4,6 +4,7 @@ $(document).ready(function () {
     $(".inside").fadeToggle();
     $('.about').fadeToggle();
     $('.title').fadeToggle();
+    $('.read-more').fadeToggle();
     $(".inside").animate({ scrollTop: 69});
     $(".background").toggleClass("blur");
   });
