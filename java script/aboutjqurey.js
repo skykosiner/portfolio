@@ -15,7 +15,7 @@ $(document).ready(function () {
     $(".about_title").css({"padding": "90px"});
   };
 });
-// When read more button is pressed show readmore text and hide footer
+// When read more button is pressed show read more text and hide footer
 $(document).ready(function () {
   $('.read-more').click(function () {
     $('.footer').fadeToggle();

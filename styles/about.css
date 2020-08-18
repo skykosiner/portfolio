@@ -1,8 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Mono:ital@1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pridi:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pridi:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
 .global-link {
   text-decoration: none;
   color: #ffffff;
@@ -128,49 +133,41 @@
           transform-origin: bottom display;
 }
 
-.footer {
-  font-family: "Roboto", sans-serif;
-  background-color: #ffffff;
-  color: #000000;
-  display: block;
-  position: fixed;
-  width: 100%;
-  height: auto !important;
-  margin: 0 auto;
-  position: fixed;
-  right: 0;
-  bottom: 0;
+.global-link {
+  text-decoration: none;
+  color: #ffffff;
 }
 
-.footer_.footer-text {
-  text-align: right;
+* {
   margin: 0;
   padding: 0;
 }
 
-.footer_.links-footer {
-  padding: 0;
+.footer {
+  font-family: "Roboto", sans-serif;
+  font: 15px;
+  position: absolute;
+  height: 60px;
+  bottom: 0;
+  background-color: #3B3B3B;
+  width: 100%;
+  color: #ffffff;
+}
+
+.footer_.copy {
   margin: 5px;
-  text-align: right;
+  position: absolute;
+  left: 0;
 }
 
-.footer_.links {
-  text-decoration: none;
-  color: #333333;
+.footer_.links-main {
+  float: right;
+  margin: 5px;
 }
 
-.mobile {
-  display: none;
-}
-
-@media screen and (max-width: 1730px) {
-  .brake {
-    display: none;
-  }
-  .footer {
-    position: absolute;
-    bottom: 0;
-  }
+.footer_.link {
+  float: right;
+  margin: 5px;
 }
 
 .button {
