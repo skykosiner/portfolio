@@ -8,11 +8,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pridi:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
-.global-link {
-  text-decoration: none;
-  color: #ffffff;
-}
-
 ::-webkit-scrollbar {
   width: 0px;
   background: transparent;
@@ -37,7 +32,7 @@
 .hamburger > span {
   display: block;
   margin: 9px auto;
-  background-color: #134141;
+  background-color: #707070;
   width: 50%;
   height: 5px;
   border-radius: 10px;
@@ -170,155 +165,22 @@
   margin: 5px;
 }
 
-.button {
-  display: none;
-  float: left;
-  background-color: Transparent;
-  background-repeat: no-repeat;
-  border: none;
-  cursor: pointer;
-  overflow: hidden;
-  outline: none;
-  font-size: 30px;
-  margin: 0px;
-  position: fixed;
-  right: 0;
-  bottom: 0;
-}
-
-.global-underline {
-  display: inline-block;
-  position: relative;
-}
-
-.global-underline::after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-  height: 5px;
-  bottom: 0;
-  left: 0;
-  background-color: #3498DB;
-  -webkit-transform-origin: bottom left;
-          transform-origin: bottom left;
-  -webkit-transition: -webkit-transform 0.25s ease-out;
-  transition: -webkit-transform 0.25s ease-out;
-  transition: transform 0.25s ease-out;
-  transition: transform 0.25s ease-out, -webkit-transform 0.25s ease-out;
-}
-
-.global-underline:hover::after {
-  -webkit-transform: scaleX(1);
-          transform: scaleX(1);
-  -webkit-transform-origin: bottom display;
-          transform-origin: bottom display;
+.global-link {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 * {
   margin: 0;
   padding: 0;
-  max-width: 100%;
-  overflow-x: hidden;
-  background-color: #555555;
+  z-index: 1;
 }
 
 .title {
-  width: 100%;
-  position: sticky;
-  position: -webkit-sticky;
+  position: absolute;
   text-align: center;
-  font-weight: bold;
-  color: #ffffff;
-  font-size: 60px;
   font-family: "Roboto", sans-serif;
-}
-
-.about {
-  display: block;
-  margin: 5px;
-  width: 100%;
-  height: 100%;
-  color: white;
-  font-family: "Roboto", sans-serif;
-}
-
-.about_.about_title {
-  text-align: left;
-  margin: 0;
-  vertical-align: center;
-  line-height: 50px;
-  font-size: 40px;
-}
-
-.about_.about_text {
-  font-size: 30px;
-  line-height: 30px;
-  color: #ffffff;
-}
-
-.about_.kosiner-codes {
-  -webkit-text-decoration: transparent;
-          text-decoration: transparent;
-  color: #ffffff;
-}
-
-.about_title_desktop {
-  color: #ffffff;
-  font-size: 90px;
-  text-align: center;
-  text-align: justify;
-}
-
-.read-more {
-  background-color: Transparent;
-  background-repeat: no-repeat;
-  border: none;
-  cursor: pointer;
-  color: #ffffff;
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-  font-size: 15px;
-}
-
-.more {
-  display: none;
-  font-family: "Roboto", sans-serif;
-  color: #ffffff;
-}
-
-.more_.sub-codding {
-  text-align: left;
-  margin: 20px;
-  font-size: 50px;
-}
-
-.more_.sub-codding_.codding_text {
-  margin: 20px;
-  font-size: 30px;
-  color: #ffffff;
-  background-color: #555555;
-  border-radius: 1%;
-}
-
-@media screen and (max-width: 769px) {
-  .kosiner-codes:hover {
-    color: #ffffff;
-  }
-}
-
-@media screen and (min-width: 834px) {
-  .about_text {
-    margin: 0;
-    text-align: center;
-  }
-  .mobile-br {
-    display: none;
-  }
-  .desktop-br {
-    display: block;
-  }
+  font-family: 60px;
+  color: #555555;
 }
 /*# sourceMappingURL=about.css.map */

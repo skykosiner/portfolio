@@ -14,22 +14,13 @@
     $(function(){
       $("#footer").load("footer.html"); 
     });
+    $(function(){
+        $("#menu").load("/pages/hambugermenu.html"); 
+      });
     </script> 
 </head>
 <body>
-    <!--Hambuger menu-->
-    <div class="background"></div>
-    <div class="hamburger" id="hamburger">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-    <div class="inside">
-      <a href="/index.html">Home</a>
-      <a href="/pages/about.html">About </a>
-      <a href='/pages/project.html'>My projects</a>
-      <a href="#"></a>
-    </div>
+  <div id="menu"></div>
     <div class="all">
       <p class="p">f</p>
       <!--Start of page-->
