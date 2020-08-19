@@ -26,6 +26,7 @@
   top: 0;
   right: 0;
   z-index: 9;
+  font-family: "Roboto", sans-serif;
   /* Hambuger hover animation */
 }
 
@@ -35,6 +36,7 @@
   background-color: #707070;
   width: 50%;
   height: 5px;
+  font-family: "Roboto", sans-serif;
   border-radius: 10px;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
@@ -174,7 +176,7 @@
   font: 15px;
   position: absolute;
   height: 60px;
-  bottom: 0;
+  bottom: -3%;
   background-color: #3B3B3B;
   width: 100%;
   color: #ffffff;

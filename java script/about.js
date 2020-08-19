@@ -5,4 +5,8 @@ $(document).ready(function () {
       $(".all").fadeToggle();
       $(".inside").animate({ scrollTop: 69});
     });
+  }); 
+
+  $(window).scroll(function() {
+    $("body, html").animate({ scrollTop: 0 });
   });

@@ -11,4 +11,4 @@ $(document).ready(function () {
 
 $(window).scroll(function() {
   $("body, html").animate({ scrollTop: 0 });
-});
+ 

@@ -3,34 +3,66 @@
 @import "_header.scss";
 @import "_footer.scss";
 @import "_global-styles.scss";
-* {
-  margin: 0; 
+*{
+  margin: 0;
   padding: 0;
-  color: #cfcbcb;
+  overflow: hidden;
 }
-// Logo
-.logo{
-  margin: 20px;
+// Hide scroll bar 
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; // Make scrollbar transparent 
 }
-.all {
-  display: block;
-  cursor: default;
-}
-/* main title*/
-.title {
-  margin: 100px;
-  padding: 0;
-  text-align: left;
+// Hello my name is 
+.hello{
   color: $light-grey;
+  font-size: 30px;
   font-family: "Roboto", sans-serif;
-  font-size: 50px;
+  position: absolute;
+  margin: 38px;
+  bottom: 58%;
 }
-
-/* main title scaling*/
-/*phone*/
-@media screen and (max-width: 769px) {
-  .title {
-    font-size: 40px;
-    margin: 5px;
-  }
+// List off things about me front page
+.list{
+  color: $light-grey;
+  font-size: 45px;
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  margin: 35px;
+  bottom: 53%;
+}
+// Giant image of me
+.me{
+  top: 6%;
+  right: 0;
+  margin-right: 10%;
+  height: 729px;
+  width: 450px;
+  right: -15%;
+  position:absolute
+}
+// Social list
+.image{
+  margin: 50px;
+  position: absolute;
+  left: -1.4%;
+  bottom: 43.8%;
+}
+.image1{
+  margin: 50px;
+  position: absolute;
+  left: 3.5%;
+  bottom: 43%;
+}
+.image2{
+  margin: 50px;
+  position: absolute;
+  left: 9.5%;
+  bottom: 43.4%;
+}
+.image3{
+  margin: 50px;
+  position: absolute;
+  left: 15.5%;
+  bottom: 44.1%;
 }
