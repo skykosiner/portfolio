@@ -66,3 +66,50 @@
   left: 15.5%;
   bottom: 44.1%;
 }
+.mobile-br{
+  display: none;
+}
+// Scaling
+// Scaling for ipad 9.7
+@media screen and (max-width: 1024px){
+  .list{
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 736px){
+  .me{
+    top: 17.4%;
+    left: 22%;
+    height: 230px;
+    width: 220px;
+  }
+  .hello{
+    bottom: 30%;
+  }
+  .list{
+    bottom: 10%;
+  }
+  .image{
+    bottom: 1%;
+    left: -4%;
+  }
+  .image1{
+    bottom: 0%;
+    left: 9%;
+  }
+  .image2{
+    bottom: 1%;
+    left: 24%;
+  }
+  .image3{
+    bottom: 2%;
+    left: 40%;
+  }
+
+  .mobile-br{
+    display: block;
+  }
+  .logo{
+    left: -4%;
+  }
+}
