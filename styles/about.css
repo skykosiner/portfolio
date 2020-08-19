@@ -38,6 +38,7 @@
   border-radius: 10px;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
+  z-index: 7;
 }
 
 .hamburger:hover span:first-child {
@@ -133,6 +134,36 @@
   color: #ffffff;
 }
 
+.global-underline {
+  display: inline-block;
+  position: relative;
+}
+
+.global-underline::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  height: 5px;
+  bottom: 0;
+  left: 0;
+  background-color: #3498DB;
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+  -webkit-transition: -webkit-transform 0.25s ease-out;
+  transition: -webkit-transform 0.25s ease-out;
+  transition: transform 0.25s ease-out;
+  transition: transform 0.25s ease-out, -webkit-transform 0.25s ease-out;
+}
+
+.global-underline:hover::after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-transform-origin: bottom display;
+          transform-origin: bottom display;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -170,17 +201,73 @@
   color: #ffffff;
 }
 
+.global-underline {
+  display: inline-block;
+  position: relative;
+}
+
+.global-underline::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  height: 5px;
+  bottom: 0;
+  left: 0;
+  background-color: #3498DB;
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+  -webkit-transition: -webkit-transform 0.25s ease-out;
+  transition: -webkit-transform 0.25s ease-out;
+  transition: transform 0.25s ease-out;
+  transition: transform 0.25s ease-out, -webkit-transform 0.25s ease-out;
+}
+
+.global-underline:hover::after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-transform-origin: bottom display;
+          transform-origin: bottom display;
+}
+
 * {
   margin: 0;
   padding: 0;
-  z-index: 1;
+  color: #ffffff;
 }
 
-.title {
-  position: absolute;
+#menu {
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+h1 {
   text-align: center;
+  color: #707070;
   font-family: "Roboto", sans-serif;
-  font-family: 60px;
-  color: #555555;
+  font-size: 60px;
+  margin: 0;
+  padding: 0;
+}
+
+.about_foreground {
+  color: #707070;
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+}
+
+.about_foreground_.about_title {
+  color: #707070;
+  text-align: center;
+  padding: 100px;
+}
+
+.about_foreground_.about-text {
+  color: #707070;
+  font-size: 30px;
+  text-align: center;
+  padding: 95px;
 }
 /*# sourceMappingURL=about.css.map */

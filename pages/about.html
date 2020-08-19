@@ -4,27 +4,47 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--~Css-->
-    <link rel="stylesheet" href="/styles/about.css" />
+    <link rel="stylesheet" href="/styles/about.css">
     <!--JS-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/java script/about.js"></script>
-  <!--footer-->
-  <script> 
-    $(function(){
-      $("#footer").load("footer.html"); 
-    });
-    $(function(){
-    $("#menu").load("hambugermenu.html"); 
-  });
-  </script>
     <title>Yoni Koisner portfolio-About</title>
   </head>
   <body>
-    <!--Hambuger menu-->
-    <div id="menu"></div>
-      <!--Start of page-->
-      <h1 class="title">About</h1>
-        <!--footer-->
-     <div id="footer"></div>
+<!--Hambuger menu-->
+<div class="hamburger" id="hamburger">
+  <span class="span"></span>
+  <span></span>
+  <span></span>
+</div>
+<div class="inside">
+  <a href="/index.html">Home</a>
+  <a href="/pages/about.html">About </a>
+  <a href='/pages/project.html'>My projects</a>
+</div>
+ <!--Start of page-->
+ <img src="/images/Logo.svg" alt="" width="90px" height="90px" style="margin: 5px; z-index: 10;">
+ <div class="all">
+ <h1>About</h1>
+ <!--About foreground-->
+ <div class="about_foreground">
+   <p class="about_foreground_ about_title">
+    Hello world 👋 my name is Yoni Kosiner or known 
+    online as <a href="https://instagram.com/kosiner.codes" class="global-link global-underline" style="color: #707070">@Kosiner.codes</a>
+   </p>
+   <p class="about_foreground_ about-text">
+    I’m currently a student studying computer science. 
+    (self taught web dev/iOS/python before learning computer science at school)
+   </p>
+ </div>
+</div>
+ <!--footer-->
+ <div class="footer">
+  <p class="footer_ copy">&copy;Yoni Kosiner</p>
+  <a href="https://www.instagarm.com/kosiner.codes" class="footer_ links-main global-link global-underline">Instagram</a>
+  <a href="https://www.twitter.com/KosinerYoni" class="footer_ link global-link global-underline">Twitter</a>
+  <a href="https://www.github.com/yonikosiner" class="footer_ link global-link global-underline">GiHub</a>
+  <a href="mailto:yoni@kosiner.codes?subject=Yoni%20Kosiner%20Inquiry" class="footer_ link global-link global-underline">Email</a>
+</div>
 </body>
 </html>

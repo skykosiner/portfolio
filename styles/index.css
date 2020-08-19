@@ -38,6 +38,7 @@
   border-radius: 10px;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
+  z-index: 7;
 }
 
 .hamburger:hover span:first-child {
@@ -133,6 +134,36 @@
   color: #ffffff;
 }
 
+.global-underline {
+  display: inline-block;
+  position: relative;
+}
+
+.global-underline::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  height: 5px;
+  bottom: 0;
+  left: 0;
+  background-color: #3498DB;
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+  -webkit-transition: -webkit-transform 0.25s ease-out;
+  transition: -webkit-transform 0.25s ease-out;
+  transition: transform 0.25s ease-out;
+  transition: transform 0.25s ease-out, -webkit-transform 0.25s ease-out;
+}
+
+.global-underline:hover::after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-transform-origin: bottom display;
+          transform-origin: bottom display;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -170,28 +201,44 @@
   color: #ffffff;
 }
 
+.global-underline {
+  display: inline-block;
+  position: relative;
+}
+
+.global-underline::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  height: 5px;
+  bottom: 0;
+  left: 0;
+  background-color: #3498DB;
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+  -webkit-transition: -webkit-transform 0.25s ease-out;
+  transition: -webkit-transform 0.25s ease-out;
+  transition: transform 0.25s ease-out;
+  transition: transform 0.25s ease-out, -webkit-transform 0.25s ease-out;
+}
+
+.global-underline:hover::after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-transform-origin: bottom display;
+          transform-origin: bottom display;
+}
+
 * {
   margin: 0;
   padding: 0;
+  color: #cfcbcb;
 }
 
-.background {
-  background: url(/images/Desk.JPG) no-repeat center;
-  background-size: cover;
-  height: 100%;
-  position: fixed;
-  width: 100%;
-  z-index: -2;
-  top: 0;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-}
-
-.blur {
-  -webkit-filter: blur(8px);
-          filter: blur(8px);
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+.logo {
+  margin: 20px;
 }
 
 .all {
@@ -204,7 +251,7 @@
   margin: 100px;
   padding: 0;
   text-align: left;
-  color: #ffffff;
+  color: #707070;
   font-family: "Roboto", sans-serif;
   font-size: 50px;
 }

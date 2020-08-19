@@ -11,15 +11,6 @@
     <script src="/java script/jqurey.js"></script>
     <!--favcon-->
     <link rel='icon' href="/images/favicon.svg" type='image/x-icon' >
-    <!--footer-->
-    <script> 
-      $(function(){
-        $("#footer").load("/pages/footer.html"); 
-      });
-      $(function(){
-        $("#menu").load("/pages/hambugermenu.html"); 
-      });
-    </script>
     <!--title-->
     <title>Yoni Kosiner portfolio</title>
   </head>
@@ -27,16 +18,40 @@
     <body>
       <div class="background"></div>
       <!--Hambuger menu-->
-      <div id="menu"></div>
-      <div class="all">
-        <p class="p">f</p>
+      <div class="hamburger" id="hamburger">
+        <span class="span"></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="inside">
+        <a href="/index.html">Home</a>
+        <a href="/pages/about.html">About </a>
+        <a href='/pages/project.html'>My projects</a>
+      </div>
         <!--start of page-->
+      <div class="all">
+        <img class="logo" src="/images/Logo.svg" alt="" width="90px" height="90px">
         <h1 class="title">
-         <a class="global-link global-underline" href="http://instagram.com/kosiner.codes">Yoni Kosiner :</a><br />
-         <a class="global-link global-underline" href="http://github.com/yonikosiner">Developer</a><br />
-          Smart Home Enthusiast
+         <a class="global-link global-underline" href="http://instagram.com/kosiner.codes" style="color: #707070;">Yoni Kosiner :</a><br />
+         <a class="global-link global-underline" href="http://github.com/yonikosiner" style="color: #707070;">Developer</a><br />
+          Smart Home
+         <br> Enthusiast
         </h1>
-      <div id="footer"></div>
+        <img src="/images/drawing.svg" alt="" width="200px" style="top: -5%;
+        right: 0;
+        margin-right: 0;
+        width: 800px;
+        float: right;
+        overflow-x: hidden;
+        position:absolute">
+    <!--Footer-->
+    <div class="footer">
+    <p class="footer_ copy">&copy;Yoni Kosiner</p>
+    <a href="https://www.instagarm.com/kosiner.codes" class="footer_ links-main global-link">Instagram</a>
+    <a href="https://www.twitter.com/KosinerYoni" class="footer_ link global-link">Twitter</a>
+    <a href="https://www.github.com/yonikosiner" class="footer_ link global-link">GiHub</a>
+    <a href="mailto:yoni@kosiner.codes?subject=Yoni%20Kosiner%20Inquiry" class="footer_ link global-link">Email</a>
+  </div>
     </div>
     </body>
   </html>

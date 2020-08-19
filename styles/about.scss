@@ -6,13 +6,38 @@
 *{
   margin: 0;
   padding: 0;
-  z-index: 1;
+  color: $white;
 }
-// Title
-.title{
-  position: absolute;
+// Fixing hambuger menu 
+#menu{
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+// Tittle
+h1{
   text-align: center;
+  color: $light-grey;
   font-family: "Roboto", sans-serif;
-  font-family: 60px;
-  color: #555555;
+  font-size: 60px;
+  margin: 0;
+  padding: 0;
+}
+// About foreground
+.about_foreground{
+  color: $light-grey;
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+  // About foreground title of about page 
+  &_.about_title{
+    color: $light-grey;
+    text-align: center;
+    padding: 100px;
+  }
+  &_.about-text{
+   color: $light-grey; 
+   font-size: 30px;
+   text-align: center;
+   padding: 95px;
+  }
 }
