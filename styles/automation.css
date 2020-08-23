@@ -232,4 +232,47 @@
   -webkit-transform-origin: bottom display;
           transform-origin: bottom display;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  text-align: center;
+  padding: 80px;
+  font-size: 60px;
+  font-family: "Roboto", sans-serif;
+  color: #707070;
+}
+
+.automation {
+  color: #707070;
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  bottom: 50%;
+  margin: 50px;
+}
+
+.automation_.automation-title {
+  font-size: 35px;
+}
+
+.automation_.automation-title_.automation-list {
+  font-size: 30px;
+}
+
+.home-text {
+  display: none;
+}
+
+.button {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  color: #707070;
+}
 /*# sourceMappingURL=automation.css.map */
