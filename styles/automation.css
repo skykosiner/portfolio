@@ -256,14 +256,21 @@
 
 .automation_.automation-title {
   font-size: 35px;
+  font-family: "Roboto", sans-serif;
+  color: #707070;
+  margin: 10px;
 }
 
 .automation_.automation-title_.automation-list {
   font-size: 30px;
+  margin: 10px;
 }
 
 .home-text {
   display: none;
+  font-family: "Roboto", sans-serif;
+  margin: 5px;
+  color: #707070;
 }
 
 .home-text > h2 {
@@ -272,6 +279,7 @@
 
 .home-text_.home_description {
   font-size: 25px;
+  margin: 5px;
 }
 
 .button {

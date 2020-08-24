@@ -16,11 +16,9 @@ $(document).ready(function () {
     $(".alexa").fadeToggle();
   });
 });
-// Get div automation to move when apple home kit is clicked
-$(document).ready(function () {
-  if ($(".home-text").css("display") == ("block")) {
-    alert("The paragraph  is visible.");
-  } else {
-    alert("The paragraph  is hidden.");
+//  When user scroll's after the being of the home description
+$(window).scroll(function () {
+  if ($(".second-paragraph").css("display") == ("block")) {
+    alert("visible")
   }
 });

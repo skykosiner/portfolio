@@ -24,18 +24,26 @@
     margin: 50px;
     &_.automation-title{
         font-size: 35px;
+        font-family: "Roboto", sans-serif;
+        color: $light-grey;
+        margin: 10px;
         &_.automation-list{
             font-size: 30px;
+            margin: 10px;
         }
     }
 }
 .home-text{
     display: none;
+    font-family: "Roboto", sans-serif;
+    margin: 5px;
+    color:  $light-grey;
     >h2{
         font-size: 35px;
     }
     &_.home_description{
         font-size: 25px;
+        margin: 5px;
     }
 } 
 .button{
