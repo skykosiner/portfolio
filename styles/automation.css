@@ -266,6 +266,14 @@
   display: none;
 }
 
+.home-text > h2 {
+  font-size: 35px;
+}
+
+.home-text_.home_description {
+  font-size: 25px;
+}
+
 .button {
   background-color: Transparent;
   background-repeat: no-repeat;

@@ -5,13 +5,13 @@
 @import "_global-styles.scss";
 *{
   margin: 0;
-  padding: 0;
+  padding: 0;  
   overflow: hidden;
 }
 // Hide scroll bar 
 ::-webkit-scrollbar {
   width: 0px;
-  background: transparent; // Make scrollbar transparent 
+  background: transparent; // Make scrolbar transparent 
 }
 // Hello my name is 
 .hello{
