@@ -18,7 +18,7 @@ $(document).ready(function () {
 });
 //  When user scroll's after the being of the home description
 $(window).scroll(function () {
-  if ($(".second-paragraph").css("display") == ("block")) {
-    alert("visible")
+  if ($(".home-text").css("display") == ("none")) {
+    $(".second-paragraph").fadeToggle();
   }
 });
