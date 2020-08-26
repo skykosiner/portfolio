@@ -1,15 +1,9 @@
-.button {
-  display: none;
-  float: left;
-  background-color: Transparent;
-  background-repeat: no-repeat;
-  border: none;
-  cursor: pointer;
-  overflow: hidden;
-  outline: none;
-  font-size: 30px;
-  margin: 0px;
-  position: fixed;
-  right: 0;
-  bottom: 0;
+.bottom{
+  position: absolute;
+  bottom: 5%;
+  right: 2px;
+}
+.scroll-top {
+  position: absolute;
+  color: $light-grey;
 }

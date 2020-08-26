@@ -7,6 +7,8 @@ $(document).ready(function () {
     $(".inside").animate({ scrollTop: 69 });
   });
 });
+
+// All for  home kit button
 // Get home kit text appear when i press home kit
 $(document).ready(function () {
   $(".home-kit").click(function () {
@@ -16,9 +18,13 @@ $(document).ready(function () {
     $(".alexa").fadeToggle();
   });
 });
-//  When user scroll's after the being of the home description
-$(window).scroll(function () {
-  if ($(".home-text").css("display") == ("none")) {
+//  When user scroll's after the being of the home description` 1
+window.onscroll = function (e) {
+  var x = document.getElementById("third-paragraph");
+  if (window.getComputedStyle(x).display == "none") {
+    x.style.display = "block";
+    $(".first-paragraph").fadeToggle();
     $(".second-paragraph").fadeToggle();
   }
-});
+}
+// ALl for alexa button

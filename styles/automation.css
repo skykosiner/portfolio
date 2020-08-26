@@ -166,6 +166,36 @@
           transform-origin: bottom display;
 }
 
+.global-underline_small {
+  display: inline-block;
+  position: relative;
+}
+
+.global-underline_small {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #3498DB;
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+  -webkit-transition: -webkit-transform 0.25s ease-out;
+  transition: -webkit-transform 0.25s ease-out;
+  transition: transform 0.25s ease-out;
+  transition: transform 0.25s ease-out, -webkit-transform 0.25s ease-out;
+}
+
+.global-underline_small::after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-transform-origin: bottom display;
+          transform-origin: bottom display;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -233,6 +263,47 @@
           transform-origin: bottom display;
 }
 
+.global-underline_small {
+  display: inline-block;
+  position: relative;
+}
+
+.global-underline_small {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #3498DB;
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+  -webkit-transition: -webkit-transform 0.25s ease-out;
+  transition: -webkit-transform 0.25s ease-out;
+  transition: transform 0.25s ease-out;
+  transition: transform 0.25s ease-out, -webkit-transform 0.25s ease-out;
+}
+
+.global-underline_small::after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-transform-origin: bottom display;
+          transform-origin: bottom display;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 5%;
+  right: 2px;
+}
+
+.scroll-top {
+  position: absolute;
+  color: #707070;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -282,6 +353,22 @@
   margin: 5px;
 }
 
+#third-paragraph {
+  display: none;
+  font-size: 25px;
+  margin: 5px;
+}
+
+.alxea-text {
+  font-family: "Roboto", sans-serif;
+  margin: 5px;
+  color: #707070;
+}
+
+.alxea-text_.sub-title {
+  font-size: 35px;
+}
+
 .button {
   background-color: Transparent;
   background-repeat: no-repeat;
@@ -290,9 +377,5 @@
   overflow: hidden;
   outline: none;
   color: #707070;
-}
-
-.second-paragraph {
-  display: none;
 }
 /*# sourceMappingURL=automation.css.map */

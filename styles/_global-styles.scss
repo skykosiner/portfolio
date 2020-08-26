@@ -25,3 +25,24 @@
         transform:scaleX(1);
         transform-origin:bottom display;
     }
+// For a smaller global under line 
+.global-underline_small{
+    display:inline-block;
+    position:relative;
+ }
+     .global-underline_small{
+        content:" ";
+        position:absolute;
+        width:100%;
+        transform:scaleX(0);
+        height:2px;
+        bottom:0;
+        left:0;
+        background-color: $blue;
+        transform-origin:bottom left;
+        transition:transform 0.25s ease-out;
+    }
+     .global-underline_small::after{
+        transform:scaleX(1);
+        transform-origin:bottom display;
+    }
