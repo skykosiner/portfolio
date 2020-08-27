@@ -28,3 +28,11 @@ window.onscroll = function (e) {
   }
 }
 // ALl for alexa button
+$(document).ready(function () {
+  $(".alexa").click(function () {
+    $(".home-kit").fadeToggle();
+    $(".Multi-room-music").fadeToggle();
+    $(".google").fadeToggle();
+    $(".alexa-text").fadeToggle();
+  });
+});

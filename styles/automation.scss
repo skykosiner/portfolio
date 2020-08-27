@@ -54,12 +54,13 @@
     margin: 5px;
 }
 // For alexa text description
-.alxea-text{
+.alexa-text{
     font-family: "Roboto", sans-serif;
     margin: 5px;
     color: $light-grey;
+    display: none;
     &_.sub-title{
-        font-size: 35px;
+        font-size: 45px;
     }
 }
 .button{

@@ -359,14 +359,15 @@
   margin: 5px;
 }
 
-.alxea-text {
+.alexa-text {
   font-family: "Roboto", sans-serif;
   margin: 5px;
   color: #707070;
+  display: none;
 }
 
-.alxea-text_.sub-title {
-  font-size: 35px;
+.alexa-text_.sub-title {
+  font-size: 45px;
 }
 
 .button {
