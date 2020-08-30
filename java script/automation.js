@@ -18,7 +18,7 @@ $(document).ready(function () {
     $(".alexa").fadeToggle();
   });
 });
-//  When user scroll's after the being of the home description` 1
+//  When user scroll's after the being of the home description`
 window.onscroll = function (e) {
   var x = document.getElementById("third-paragraph");
   if (window.getComputedStyle(x).display == "none") {
