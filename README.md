@@ -1,5 +1,7 @@
 # Yoni kosiner portfolio
 
+# New desighn comming soon with react ;)
+
 ## What is this?
 
 <br>This the all the code to my portfolio and you are not a provisional developer till you have almost everything on a public github repo : ).
@@ -12,4 +14,5 @@
  * css/scss
  * Java Script/Jquery
 <br> I have only been doing web devolvement for a year and i'm planing on learning more frameworks and langues soon(React, Vue, Gatsby)
+
 
